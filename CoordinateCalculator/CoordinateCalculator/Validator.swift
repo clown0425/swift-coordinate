@@ -29,8 +29,8 @@ struct Validator:Validatable {
         }
     }
     
-    func belowthreePoint(_ seperatedInput:[String]) throws {
-        guard seperatedInput.count < 3 else{
+    func belowFourPoint(_ seperatedInput:[String]) throws {
+        guard seperatedInput.count < 4 else{
             throw UserInputError.inCorrectFormat
         }
     }
